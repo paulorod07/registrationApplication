@@ -19,6 +19,11 @@
       "id": 4,
       "name": "Macbook",
       "price": 12000
+    },
+    {
+      "name": "Carregador Notebook",
+      "price": "50.44",
+      "id": 5
     }
   ]
 }
