@@ -29,7 +29,7 @@ const EXAMPLE_DATA: Product[] = [
 ];
 
 /**
- * Data source for the ProductList2 view. This class should
+ * Data source for the ProductRead2 view. This class should
  * encapsulate all logic for fetching and manipulating the displayed data
  * (including sorting, pagination, and filtering).
  */
@@ -102,6 +102,6 @@ export class ProductList2DataSource extends DataSource<Product> {
 }
 
 /** Simple sort comparator for example ID/Name columns (for client-side sorting). */
-function compare(a: string | number, b: string | number, isAsc: boolean) {
+function compare(a: String | number, b: String | number, isAsc: boolean) {
   return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
 }
