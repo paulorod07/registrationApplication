@@ -7,6 +7,11 @@
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  max-width: 140px;
 }
 
 .header .logo {
@@ -14,7 +19,7 @@
 }
 
 .header .title-group {
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 .header .title-group i {

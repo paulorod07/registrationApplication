@@ -6,24 +6,19 @@
       "price": 5.49
     },
     {
-      "id": 2,
-      "name": "Borracha",
-      "price": 3.49
-    },
-    {
-      "id": 3,
-      "name": "Caderno",
-      "price": 9.89
-    },
-    {
       "id": 4,
       "name": "Macbook",
-      "price": 12000
+      "price": "8499"
     },
     {
       "name": "Carregador Notebook",
-      "price": "50.44",
+      "price": "90",
       "id": 5
+    },
+    {
+      "name": "testando",
+      "price": "999",
+      "id": 6
     }
   ]
 }

@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  background: #f5f5f5;
 }
 body {
   margin: 0;
@@ -11,4 +12,14 @@ body {
 
 form {
   margin-top: 20px;
+}
+
+.msg-success {
+  background: #4bb543;
+  color: #fff;
+}
+
+.msg-error {
+  background: #ff0033;
+  color: #fff;
 }
